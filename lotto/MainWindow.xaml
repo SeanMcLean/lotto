@@ -7,6 +7,28 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Label x:Name="label" Content="Lotto Generator" HorizontalAlignment="Left" Margin="40,26,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Please select lotto country" HorizontalAlignment="Left" Margin="40,92,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnIRL" Content="IRL" HorizontalAlignment="Left" Margin="248,98,0,0" VerticalAlignment="Top" Width="85" Click="button_Click" Height="38"/>
+        <Button x:Name="btnUK" Content="UK" HorizontalAlignment="Left" Margin="369,98,0,0" VerticalAlignment="Top" Width="84" Height="38" Click="btnUK_Click"/>
+        <Label x:Name="label2" Content="Randomly generated lotto" HorizontalAlignment="Left" Margin="139,178,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="0" HorizontalAlignment="Left" Margin="63,230,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="1" HorizontalAlignment="Left" Margin="104,230,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label5" Content="2" HorizontalAlignment="Left" Margin="148,230,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label6" Content="3" HorizontalAlignment="Left" Margin="186,230,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label7" Content="4" HorizontalAlignment="Left" Margin="234,230,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label8" Content="5" HorizontalAlignment="Left" Margin="277,230,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label9" Content="Bonus" HorizontalAlignment="Left" Margin="388,230,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.938,0.605"/>
+        <TextBox x:Name="tbx0" HorizontalAlignment="Left" Height="23" Margin="53,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="35"/>
+        <TextBox x:Name="tbx1" HorizontalAlignment="Left" Height="23" Margin="96,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="35"/>
+        <TextBox x:Name="tbx2" HorizontalAlignment="Left" Height="23" Margin="139,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="35"/>
+        <TextBox x:Name="tbx3" HorizontalAlignment="Left" Height="23" Margin="182,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="35"/>
+        <TextBox x:Name="tbx4" HorizontalAlignment="Left" Height="23" Margin="225,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="35"/>
+        <TextBox x:Name="tbx5" HorizontalAlignment="Left" Height="23" Margin="265,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="35"/>
+        <TextBox x:Name="tbxBonus" HorizontalAlignment="Left" Height="23" Margin="396,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="35"/>
+        <TextBox x:Name="tbx6" HorizontalAlignment="Left" Height="23" Margin="305,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="35"/>
+        <Label x:Name="label8_Copy" Content="6" HorizontalAlignment="Left" Margin="317,230,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.462,0.605"/>
+        <StackPanel HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="378" Margin="53,230,0,0"/>
+
     </Grid>
 </Window>
